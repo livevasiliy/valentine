@@ -10,10 +10,17 @@
 
 body {
   min-height: 100vh;
-  background: #cc2b5e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #cc2b5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #753a88,
+    #cc2b5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #753a88,
+    #cc2b5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 main {
@@ -35,8 +42,8 @@ main {
 }
 
 #type {
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
   text-align: left;
   font-size: 18px;
 }
@@ -48,18 +55,4 @@ footer {
   padding-top: 20px;
   position: sticky;
   top: 0;
-}
-
-#form {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.btn {
-  border-radius: 50px;
-  padding: 10px 20px;
-  outline: none;
-  border: none;
-  font-size: 18px;
 }
