@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let form = document.getElementById("form");
-  form.style.display = "none";
   new TypeIt("#type", {
     speed: 50,
     startDelay: 900,
